@@ -4,6 +4,46 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>MUSIC SHOP</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
-  <body></body>
+  <body>
+    <div id="cart-menu">
+      <div>YOUR CART IS EMPTY!</div>
+      <div>
+        <div id="cart-head">
+          <div>Image</div>
+          <div>Name</div>
+          <div>Price</div>
+          <div>Action</div>
+        </div>
+        <div id="cart-body"></div>
+        <div id="cart-footer">
+          <div id="total-price"></div>
+        </div>
+      </div>
+    </div>
+    <header>
+      <div class="container">
+        <div id="logo"></div>
+        <div id="cart-toggle"></div>
+      </div>
+    </header>
+    <div id="pages" class="container">
+      <div id="products-flex"></div>
+    </div>
+    <footer id="footer">
+      <div class="container">
+        <div>About Us</div>
+        <div>Contacts</div>
+        <div>Features</div>
+        <div>Pricing</div>
+        <div>FAQs</div>
+      </div>
+      <div class="container">All rights are reserved &copy; 2023</div>
+    </footer>
+
+    <script src="./js/header.js" type="module"></script>
+    <script src="./js/menus/cart.js" type="module"></script>
+    <script src="./js/pages/products.js" type="module"></script>
+  </body>
 </html>
